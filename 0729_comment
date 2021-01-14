@@ -1,0 +1,12 @@
+
+1. client 측 My*.c에서  input_case 함수에 회원가입 목록 만들기
+2. Server 측 My*.c에서 Mylogin 함수에 맞게 login.txt 파일 만들기
+3. header 측 .h 에서 각각 상황에 맞는 flag 만들기, (회원가입, upload, download, 종료)
+4. client 측 My*.c에서 input_case 함수에 상황마다 socket 통신 해서 Server에 알리기
+5. Server에 My*.c 함수에 socket_case 같은 함수를 구성해서 각각 상황에 대응하기( fork() 안에서)
+
+6. Server에 각각에 맞는 회원에 대해 Working directory 변경 및 생성 하는 함수 구성
+
+	현재 login 함수는 구성했고, login 상황을 연출하면됨.
+
+

@@ -1,0 +1,20 @@
+0724 comment
+
+1. client 가 일방적으로 Server에게 파일 받음 (Client 업로드 구현 필요)
+2. client 부분 code modulization 하게 수정 중에 있음.
+3. 현재 while(1)로 input_case 를 수행중
+	3.1 input_case 안에서는 error_checking 수행
+	3.2 er_checking()은, ER_EXIST, ER_INPUT 수행가능
+
+
+해야할일은 다음과 같음.
+4. 다운로드시, 지정폴더에 파일을 다운
+5. 업로드시, Server 지정폴더에 파일을 다운
+	5.1 Multi Server 접속을 위해서 계정생성 필요
+	5.2 Multi Upload를 위해서 각 folder 생성필요
+6. 파일 목록확인을 위한 User friendly 한 ls 명령어 구현필요 (기존에 ls 명령어 구현한 것 있음)
+
+
+추가적으로
+7. Server 쪽에 log file ctrl 하도록 구성
+8. Multi 접속에 대해서 구현 5.1, 5.2를 구현
